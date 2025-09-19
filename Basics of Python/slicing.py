@@ -19,3 +19,5 @@ print(wow[1::2])  #output (4, 5, 14, 'World') (slicing with step)
 print(wow[::-1])  #output ('World', 'hello', 14, 6, 5, 2, 4, 1) (reversing the tuple)
 print(wow[-1::-1])  #output ('World', 'hello', 14, 6, 5, 2, 4, 1) (reversing the tuple)
 print(wow[-2::-1])  #output (14, 6, 5, 2, 4, 1) (reversing the tuple except last element)
+#wow[0] = 10  #error; tuple is immutable ( cannot be changed )
+#TypeError: 'tuple' object does not support item assignment
