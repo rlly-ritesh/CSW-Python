@@ -1,0 +1,12 @@
+a={1,2,3,4}
+b={3,4,5}
+print(a|b)
+print(a&b)
+print(a-b)
+print(a^b)
+a.add(6)
+print(a)
+a.remove(2)
+print(a)
+a.discard(7)
+print(7)

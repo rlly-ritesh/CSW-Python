@@ -1,0 +1,17 @@
+nums=[3,1,4,1,5]
+print(nums[0])
+print(nums[-1])
+nums.append([3,4])
+print(nums)
+nums.sort()
+print(nums)
+nums.remove(1)
+nums.insert(2,99)
+nums.pop()
+print(nums)
+nums.clear()
+nums=[3,1,4,1,5]
+print(nums)
+print(len(nums))
+print(max(nums))
+print(min(nums))

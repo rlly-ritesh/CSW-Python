@@ -1,0 +1,1 @@
+print ( " {:*^10} " . format ( " t e s t ") 
